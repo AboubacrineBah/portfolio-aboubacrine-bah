@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import test from 'node:test'
+import publicAssetUrl from '../src/utils/publicAssetUrl.js'
 
 const projects = JSON.parse(
   await readFile(new URL('../src/data/projects.json', import.meta.url), 'utf8'),
@@ -26,4 +27,12 @@ test('each project uses a visual supported by ProjectVisual', () => {
   for (const project of projects) {
     assert.ok(availableVisuals.has(project.visual), `Unsupported visual: ${project.visual}`)
   }
+})
+
+test('public asset URLs include the deployment base path', () => {
+  assert.equal(
+    publicAssetUrl('/images/project.png', '/portfolio-aboubacrine-bah/'),
+    '/portfolio-aboubacrine-bah/images/project.png',
+  )
+  assert.equal(publicAssetUrl('/images/project.png', '/'), '/images/project.png')
 })

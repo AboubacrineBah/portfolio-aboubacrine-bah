@@ -52,7 +52,7 @@ npm run preview
 
 ## Déploiement
 
-Le workflow GitHub Actions situé dans `.github/workflows/deploy.yml` vérifie les changements lors des pull requests et des envois sur `main`. Après réussite des vérifications, il publie le site sur GitHub Pages et contrôle que la page publiée répond.
+Le workflow GitHub Actions situé dans `.github/workflows/deploy.yml` vérifie les changements lors des pull requests et des envois sur `main`. Après réussite des vérifications, il publie le site sur GitHub Pages, prépare une page de repli pour que les liens directs vers les études de cas fonctionnent, puis contrôle que le site répond.
 
 Dans les paramètres du dépôt GitHub, la source de publication Pages doit être configurée sur **GitHub Actions**.
 

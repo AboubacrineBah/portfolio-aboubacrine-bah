@@ -26,6 +26,14 @@ export default function App() {
           </main>
         } />
         <Route path="/projets/:projectId" element={<CaseStudy />} />
+        <Route path="*" element={
+          <main id="contenu" className="section-pad">
+            <div className="container">
+              <h1>Page introuvable</h1>
+              <a href={import.meta.env.BASE_URL}>Retour à l’accueil</a>
+            </div>
+          </main>
+        } />
       </Routes>
       <Footer />
     </>

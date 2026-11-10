@@ -1,8 +1,10 @@
+import publicAssetUrl from '../../utils/publicAssetUrl'
+
 function ProjectVisual({ type, image }) {
   if (image) {
     return (
       <div className={`project-visual visual-${type}`} aria-hidden="true">
-        <img src={image} alt="" />
+        <img src={publicAssetUrl(image, import.meta.env.BASE_URL)} alt="" />
       </div>
     )
   } else

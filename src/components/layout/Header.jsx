@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="site-header">
       <nav className="navbar navbar-expand-lg container site-nav" aria-label="Navigation principale">
-        <a className="brand" href="#accueil" onClick={close} aria-label="Aboubacrine BAH, accueil">
+        <a className="brand" href={`${import.meta.env.BASE_URL}#accueil`} onClick={close} aria-label="Aboubacrine BAH, accueil">
           <span className="brand-mark">A<span>.</span></span>
           <span className="brand-name">Aboubacrine <b>BAH</b><small>Développeur web full-stack · Bamako</small></span>
         </a>
@@ -15,11 +15,11 @@ function Header() {
         </button>
         <div className={`collapse navbar-collapse ${open ? 'show' : ''}`}>
           <ul className="navbar-nav ms-auto align-items-lg-center nav-links">
-            <li><a href="#apropos" onClick={close}>À propos</a></li>
-            <li><a href="#projets" onClick={close}>Projets</a></li>
-            <li><a href="#services" onClick={close}>Services</a></li>
+            <li><a href={`${import.meta.env.BASE_URL}#apropos`} onClick={close}>À propos</a></li>
+            <li><a href={`${import.meta.env.BASE_URL}#projets`} onClick={close}>Projets</a></li>
+            <li><a href={`${import.meta.env.BASE_URL}#services`} onClick={close}>Services</a></li>
             <li>
-              <a href="#contact" onClick={close} className="nav-contact">Parlons de votre projet <i className="bi bi-chat-dots" /></a>
+              <a href={`${import.meta.env.BASE_URL}#contact`} onClick={close} className="nav-contact">Parlons de votre projet <i className="bi bi-chat-dots" /></a>
             </li>
           </ul>
         </div>

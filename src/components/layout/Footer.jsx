@@ -1,7 +1,7 @@
 function Footer() {
   return <footer className="site-footer">
     <div className="container footer-inner">
-      <a className="brand footer-brand" href="#accueil">
+      <a className="brand footer-brand" href={`${import.meta.env.BASE_URL}#accueil`}>
         <span className="brand-mark">A<span>.</span></span>
         <span className="brand-name">Aboubacrine <b>BAH</b>
           <small>Développeur web · Bamako</small>

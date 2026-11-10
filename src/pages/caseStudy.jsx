@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import caseStudies from '../data/caseStudies.json'
 import useProjects from '../hooks/useProjects'
+import publicAssetUrl from '../utils/publicAssetUrl'
 
 export default function CaseStudy() {
     const { projectId } = useParams()
@@ -37,7 +38,7 @@ export default function CaseStudy() {
 
                 {project?.image ? (
                     <figure className="case-study-hero-image">
-                        <img src={project.image} alt={`Capture d’écran du projet ${study.projectName}`} />
+                        <img src={publicAssetUrl(project.image, import.meta.env.BASE_URL)} alt={`Capture d’écran du projet ${study.projectName}`} />
                     </figure>
                 ) : status === 'error' ? (
                     <p className="case-study-image-status" role="status">
@@ -103,7 +104,7 @@ export default function CaseStudy() {
 
                                 return (
                                     <figure className="case-study-gallery-item" key={imageSrc}>
-                                        <img src={imageSrc} alt={imageAlt} loading="lazy" />
+                                        <img src={publicAssetUrl(imageSrc, import.meta.env.BASE_URL)} alt={imageAlt} loading="lazy" />
                                     </figure>
                                 )
                             })}
