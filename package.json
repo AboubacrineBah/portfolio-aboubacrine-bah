@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "test": "node --test",
+    "test:ui": "playwright test",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.65.0",
     "@vitejs/plugin-react": "^6.2.1",
     "eslint": "^9.39.5",
     "eslint-plugin-react": "^7.37.5",
