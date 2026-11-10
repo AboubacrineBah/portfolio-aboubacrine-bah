@@ -1,0 +1,20 @@
+[
+  {
+    "number": "01",
+    "title": "Sites web",
+    "text": "Sites vitrines, sites WordPress clairs et sites e-commerce adaptés à votre activité et faciles à consulter sur mobile.",
+    "icon": "bi bi-window"
+  },
+  {
+    "number": "02",
+    "title": "Interfaces & applications",
+    "text": "Interfaces React et fonctionnalités PHP conçues autour des besoins concrets de votre projet.",
+    "icon": "bi bi-code-slash"
+  },
+  {
+    "number": "03",
+    "title": "Maintenance",
+    "text": "Mises à jour, sauvegardes, corrections et accompagnement pour faire vivre votre site.",
+    "icon": "bi bi-arrow-repeat"
+  }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "projectId": "site-business",
+        "projectName": "NexaWeb Mali | WordPress",
+        "type": "Site web",
+        "description": "Site business avec menu et demande de devis pour création de site web.",
+        "contextAndNeed": "Contexte : dans le cadre du lancement de son activité de développement web freelance, NexaWeb Mali a besoin d'un site vitrine et portfolio professionnel démontrant son savoir-faire technique (WordPress, React, PHP) auprès de prospects locaux à Bamako et de clients internationaux via Malt et Upwork. Le site est lui-même une démonstration du travail proposé : sa qualité d'exécution est un argument de vente direct. Besoin : présenter l'offre de services (Pôles BUILD, ADVANCED, RUN) de façon claire et crédible, démontrer la compétence technique par le portfolio de réalisations et générer des demandes de contact qualifiées, locales et export.",
+        "contribution": "Un site WordPress, un thème sur mesure basé sur Bootstrap, des images allégées et un parcours de technologie simplifié et responsive.",
+        "tags": [
+            "WordPress",
+            "PHP",
+            "Responsive",
+            "SEO"
+        ],
+        "verifiableResult": "Score Lighthouse supérieur à 80/100, des pages légères, temps de chargement inférieur à 3 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": [
+            "/images/nexawebmali-wordpress/Capture d’écran page d'accueil.jpeg",
+            "/images/nexawebmali-wordpress/Capture d’écran page a propos.jpeg",
+            "/images/nexawebmali-wordpress/Capture d’écran page realisations.jpeg",
+            "/images/nexawebmali-wordpress/Capture d’écran page portfolio.jpeg",
+            "/images/nexawebmali-wordpress/Capture d’écran page services.jpeg",
+            "/images/nexawebmali-wordpress/Capture d’écran page contact.jpeg"
+        ]
+    },
+    {
+        "projectId": "site-vitrine",
+        "projectName": "NexaWeb Mali | Bootstrap",
+        "type": "Site web",
+        "description": "Site vitrine avec menu et demande de devis de service.",
+        "contextAndNeed": "Contexte : NexaWeb Mali est une activité de développement web basée à Bamako, née comme freelance, avec l'ambition de devenir une agence digitale servant des clients africains et internationaux. Le site web place en première priorité la mise en ligne d'un portfolio de preuve qui démontre le savoir-faire front-end. Besoin : crédibiliser NexaWeb Mali face aux TPE/PME, aux agences (sous-traitance) et aux startups, générer des demandes de devis qualifiées, en local comme à l'export (Malt, Upwork), démontrer le savoir-faire par la qualité du site lui-même : design soigné, rapidité, accessibilité. Poser un socle réutilisable de composants Bootstrap pour les futurs sites clients.",
+        "contribution": "Un site vitrine, un thème sur mesure basé sur Bootstrap, des images allégées et un parcours de technologie simplifié et responsive.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap",
+            "Responsive",
+            "SEO"
+        ],
+        "verifiableResult": "Score Lighthouse supérieur à 90/100, des pages légères, temps de chargement inférieur à 2 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": [
+            "/images/nexawebmali-bootstrap/Nexaweb mali accueil.jpeg",
+            "/images/nexawebmali-bootstrap/Nexaweb mali apropos.jpeg",
+            "/images/nexawebmali-bootstrap/Nexaweb mali realisations.jpeg",
+            "/images/nexawebmali-bootstrap/Nexaweb mali services.jpeg",
+            "/images/nexawebmali-bootstrap/Nexaweb mali contact.jpeg"
+        ]
+    },
+    {
+        "projectId": "site-ecommerce",
+        "projectName": "Afrique Artisanat (fictif) | Laravel",
+        "type": "Site web",
+        "description": "Boutique e-commerce pour l’artisanat malien. Une boutique en ligne complète (site, espace client et back-office) développée avec Laravel, pour valoriser les savoir-faire locaux et simplifier la prise de commande.",
+        "contextAndNeed": "Contexte : beaucoup d’artisans maliens et ouest-africains (textiles, bijoux, sculptures, maroquinerie, poterie) vendent surtout sur les marchés et en boutique, et leur visibilité en ligne reste limitée. Afrique Artisanat est une boutique fictive qui répond à ce besoin : présenter les créations, rattacher chaque produit à son artisan et prendre des commandes en ligne. C’est aussi un projet de démonstration NexaWeb Mali : une application Laravel complète, documentée et testée, qui s’installe en local avec XAMPP. Besoin : un parcours d’achat simple, d’abord pensé pour le mobile : des pages lisibles sur petit écran et une commande en peu d’écrans, des paiements adaptés au contexte local, sans transaction réelle : paiement à la livraison, Orange Money et Moov Money simulés, avec une logique prête pour de vrais services, des données de vente fiables : pas de vente au-delà du stock, prix et adresse conservés tels qu’à la commande, historique intact, une pile adaptée à l’environnement local : XAMPP (MariaDB, version de PHP), Bootstrap avec Laravel et styles compilés avec Vite et Sass.",
+        "contribution": "Laravel (MVC) : 9 tables, 21 contrôleurs, validation par Form Requests et accès limité de chaque client à ses commandes, logique métier dans des services : panier en session, commande enregistrée dans une transaction (stock contrôlé puis décrémenté) et passerelles de paiement derrière une interface, cycle de vie des commandes : En attente, Confirmée, Expédiée, Livrée, avec annulation possible avant expédition et remise en stock, interface Bootstrap 5 : thème Sass aux couleurs du site, 48 vues Blade et composants de formulaire réutilisables, qualité et conception : 25 tests automatisés, intégration continue GitHub Actions, cahier des charges et 50 maquettes (25 pages en versions bureau et mobile).",
+        "tags": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "Vite",
+            "PHPUnit",
+            "Responsive",
+            "SEO"
+        ],
+        "verifiableResult": "Un catalogue filtrable (catégorie, prix, matière, stock, tri), un panier et une commande en 3 écrans avec suivi, un espace client (commandes, profil, adresses) et un back-office complet (produits, commandes, clients, messages), 18 produits, 6 catégories et 6 ateliers de démonstration, avec des comptes de test, 25 tests automatisés et une documentation complète pour installer le projet en local, score Lighthouse supérieur à 85/100, temps de chargement inférieur à 3 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": [
+            "/images/afrique artisanat-laravel/public/inscription.png",
+            "/images/afrique artisanat-laravel/public/connexion.png",
+            "/images/afrique artisanat-laravel/public/accueil.png",
+            "/images/afrique artisanat-laravel/public/produits.png",
+            "/images/afrique artisanat-laravel/public/panier.png",
+            "/images/afrique artisanat-laravel/public/artisans.png",
+            "/images/afrique artisanat-laravel/public/contact.png",
+            "/images/afrique artisanat-laravel/client/profil.png",
+            "/images/afrique artisanat-laravel/client/adresses.png",
+            "/images/afrique artisanat-laravel/client/commandes.png",
+            "/images/afrique artisanat-laravel/client/commande.png",
+            "/images/afrique artisanat-laravel/admin/tableau-de-bord.png",
+            "/images/afrique artisanat-laravel/admin/messages.png",
+            "/images/afrique artisanat-laravel/admin/produits.png",
+            "/images/afrique artisanat-laravel/admin/creation-produit.png",
+            "/images/afrique artisanat-laravel/admin/categories.png",
+            "/images/afrique artisanat-laravel/admin/creation-categorie.png",
+            "/images/afrique artisanat-laravel/admin/commandes.png",
+            "/images/afrique artisanat-laravel/admin/clients.png",
+            "/images/afrique artisanat-laravel/admin/artisans.png",
+            "/images/afrique artisanat-laravel/admin/creation-artisan.png"
+        ]
+    },
+    {
+        "projectId": "interface-de-suivi",
+        "projectName": "Association Jigi (fictive) | React",
+        "type": "Interface web",
+        "description": "Application de suivi de dons pour une association. Une application web monopage (React, Bootstrap et API Laravel) pour enregistrer les dons reçus, tracer leur utilisation et leur redistribution, et permettre à chaque donateur de suivre ses propres dons.",
+        "contextAndNeed": "Contexte : une association reçoit des dons de sources variées (particuliers, entreprises, partenaires), parfois en FCFA, en dollars US et en euros. Elle en utilise une partie pour ses actions et en redistribue une autre à des bénéficiaires. Sans outil unique, ces mouvements sont difficiles à suivre et à justifier. L’Association Jigi est une association fictive qui répond à ce besoin : enregistrer chaque don, tracer ce qu’il devient et rassurer les donateurs. Son nom évoque l’espoir en bambara. C’est aussi un projet de démonstration NexaWeb Mali : une application React avec une API Laravel, une identité visuelle propre à l’association, et uniquement des données fictives. Besoin : un outil pensé d’abord pour le mobile : une saisie de don en moins d’une minute, des pages légères (moins de 3 secondes en 4G) et une interface accessible (WCAG 2.1 AA), trois devises, sans confusion : FCFA, dollar US et euro, avec des totaux toujours séparés par devise et jamais additionnés, des soldes fiables : solde disponible = dons reçus moins utilisations, dons promis ou annulés exclus, et refus de toute utilisation supérieure au solde, des accès adaptés à chaque profil : administrateur, gestionnaire, lecteur et donateur, ce dernier ne voyant que ses propres dons.",
+        "contribution": "React et TypeScript strict : application monopage construite avec Vite, routage par hash pour GitHub Pages, état partagé via React Context et formulaires validés (React Hook Form et Zod), API Laravel et MySQL : API REST en JSON, authentification par jetons (Sanctum), droits par rôle (Policies), validation par Form Requests et données de démonstration par seeders, règles métier côté serveur : montants stockés en entiers dans la plus petite unité de chaque devise, calcul du solde par devise et contrôle des utilisations avant enregistrement, interface Bootstrap 5 aux couleurs de l’association : logo, palette (terracotta, brun nuit, jaune soleil, vert) et contrastes vérifiés, navigation au clavier et tableaux accessibles, qualité et conception : cahier des charges en 13 sections, maquettes de 23 écrans (versions bureau et mobile), tests automatisés (Vitest, React Testing Library et tests de l’API) et commits atomiques.",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Bootstrap",
+            "Vite",
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Vitest",
+            "React Testing Library",
+            "Responsive",
+            "UI"
+        ],
+        "verifiableResult": "Une identité visuelle sur mesure (logo « j » au soleil levant, charte et contrastes AA) et un cahier des charges complet de 13 sections, une maquette de 23 écrans, en versions bureau et mobile, pour les quatre profils d’utilisateurs, un suivi complet des dons, utilisations et redistributions, avec un tableau de bord par devise, des campagnes et des exports CSV, un espace donateur en lecture seule, limité aux dons de chaque donateur, score Lighthouse supérieur à 90/100, des pages légères, temps de chargement inférieur à 2 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": [
+            "/images/associationjigi-react/desktop/Tableau de bord.png",
+            "/images/associationjigi-react/desktop/Dons + nouveau don.png",
+            "/images/associationjigi-react/desktop/Campagnes.png",
+            "/images/associationjigi-react/desktop/Bénéficiaires + fiche.png",
+            "/images/associationjigi-react/desktop/Utilisations et solde.png",
+            "/images/associationjigi-react/desktop/Donateurs + fiche.png",
+            "/images/associationjigi-react/desktop/Rapports et exports.png",
+            "/images/associationjigi-react/desktop/Utilisateurs - admin.png",
+            "/images/associationjigi-react/desktop/États.png",
+            "/images/associationjigi-react/mobile/Connexion.png",
+            "/images/associationjigi-react/mobile/Tableau de bord.png",
+            "/images/associationjigi-react/mobile/Nouveau don.png",
+            "/images/associationjigi-react/mobile/Mes dons - espace donateur.png"
+        ]
+    },
+    {
+        "projectId": "application-de-gestion",
+        "projectName": "NexaStock (fictif) | Laravel",
+        "type": "Application web",
+        "description": "Application web de gestion de stock en français et en FCFA, avec mouvements traçables, alertes de seuil et accès par rôle.",
+        "contextAndNeed": "Contexte : beaucoup de petites entreprises maliennes (boutiques, petits distributeurs, ateliers) suivent leur stock dans des cahiers ou des tableurs, ou utilisent des outils qui ne donnent pas un historique assez clair. Résultat : des ruptures découvertes trop tard, des écarts difficiles à expliquer et peu de visibilité sur ce qui bouge. NexaStock répond à ce besoin : un tableau de bord simple : savoir ce qui est disponible, ce qui bouge et ce qui doit être réapprovisionné. C’est aussi un produit NexaWeb Mali qui prolonge ses pôles ADVANCED (application métier) et RUN (hébergement, sauvegardes et support). Le périmètre du MVP reste à confirmer avec 3 à 5 entreprises pilotes de Bamako. Besoin : des quantités fiables et traçables : un solde toujours expliqué par des mouvements validés, sans modification silencieuse des données, des données bien séparées entre entreprises : aucun client ne doit pouvoir lire ou modifier les données d’un autre, même en changeant un identifiant dans l’URL ou en exportant, un usage quotidien, d’abord mobile : une saisie rapide en peu de clics, une interface légère malgré les coupures de réseau ou d’électricité, et des pages courantes visées en moins de 3 secondes, un MVP maîtrisé pour une petite équipe : comptabilité, caisse, application native, mode hors ligne et gestion avancée des lots restent hors de la première version, pour livrer un produit solide et supportable.",
+        "contribution": "Laravel (MVC) et MySQL : 9 entités métier (entreprise, utilisateur, rôle, article, catégorie, emplacement, mouvement, fournisseur, inventaire) et transactions atomiques pour valider les mouvements et les transferts. Des mouvements immuables : entrée, sortie, ajustement et transfert avec quantité, date, motif et auteur. Une correction ou une annulation crée un mouvement compensatoire lié à l’opération d’origine, et un journal d’audit garde les actions sensibles. Des accès contrôlés côté serveur : 4 profils (administrateur NexaWeb, administrateur entreprise, responsable stock, opérateur), sessions sécurisées, protection CSRF, limitation des tentatives de connexion, mots de passe hachés et HTTPS en production.- Des parcours guidés et une interface propre au produit : réception, sortie (sorties négatives refusées), inventaire avec ajustement justifié, liste de réapprovisionnement exportable et import CSV avec aperçu des erreurs. Interface Blade responsive, logo et palette NexaStock dédiés, alertes signalées par un libellé et une icône en plus de la couleur. Exploitation et qualité : environnements de développement, recette et production, secrets hors du dépôt de code, sauvegardes automatisées avec restauration d’essai documentée, et offre RUN pour les mises à jour et l’assistance.",
+        "tags": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "Vite",
+            "PHPUnit",
+            "Responsive",
+            "UI"
+        ],
+        "verifiableResult": "Un périmètre MVP défini : 11 modules, dont 8 indispensables (accès, articles, mouvements, alertes, inventaire, rapports, journal d’audit, espaces entreprise), 5 parcours principaux décrits (réception, sortie, inventaire, réapprovisionnement, import du catalogue) sur 7 ensembles d’écrans, 11 critères de recette vérifiables, dont l’isolation des entreprises, la traçabilité des corrections, l’usage mobile et la restauration des sauvegardes, une validation prévue avec des utilisateurs réels : 15 entretiens à Bamako, 3 à 5 pilotes, et au moins 80 % des opérations courantes saisies dans l’outil, score Lighthouse supérieur à 85/100, des pages légères, temps de chargement inférieur à 3 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": [
+            "/images/nexastock-laravel/connexion.png",
+            "/images/nexastock-laravel/dashboard.png",
+            "/images/nexastock-laravel/articles-index.png",
+            "/images/nexastock-laravel/article-show.png",
+            "/images/nexastock-laravel/article-edit.png",
+            "/images/nexastock-laravel/articles-create.png",
+            "/images/nexastock-laravel/categories-index.png",
+            "/images/nexastock-laravel/categories-create.png",
+            "/images/nexastock-laravel/category-edit.png",
+            "/images/nexastock-laravel/movements-index.png",
+            "/images/nexastock-laravel/movements-create.png",
+            "/images/nexastock-laravel/supplier-show.png",
+            "/images/nexastock-laravel/supplier-edit.png",
+            "/images/nexastock-laravel/reports.png"
+        ]
+    }
+]

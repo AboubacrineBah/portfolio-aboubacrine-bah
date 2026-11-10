@@ -1,0 +1,253 @@
+- generic [ref=f1e2]:
+  - link "Aller au contenu" [ref=f1e3] [cursor=pointer]:
+    - /url: "#contenu"
+  - banner [ref=f1e4]:
+    - navigation "Navigation principale" [ref=f1e5]:
+      - link "Aboubacrine BAH, accueil" [ref=f1e6] [cursor=pointer]:
+        - /url: "#accueil"
+        - generic [ref=f1e7]:
+          - text: A
+          - generic [ref=f1e8]: .
+        - generic [ref=f1e9]:
+          - text: Aboubacrine BAH
+          - generic [ref=f1e10]: Développeur web full-stack · Bamako
+      - text: 
+      - list [ref=f1e12]:
+        - listitem [ref=f1e13]:
+          - link "À propos" [ref=f1e14] [cursor=pointer]:
+            - /url: "#apropos"
+        - listitem [ref=f1e15]:
+          - link "Projets" [ref=f1e16] [cursor=pointer]:
+            - /url: "#projets"
+        - listitem [ref=f1e17]:
+          - link "Services" [ref=f1e18] [cursor=pointer]:
+            - /url: "#services"
+        - listitem [ref=f1e19]:
+          - link "Parlons de votre projet " [ref=f1e20] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Parlons de votre projet
+            - generic [ref=f1e21]: 
+  - main [ref=f1e22]:
+    - generic [ref=f1e23]:
+      - generic [ref=f1e24]:
+        - generic [ref=f1e25]:
+          - generic [ref=f1e26]: DÉVELOPPEUR WEB FULL-STACK · BAMAKO, MALI
+          - paragraph [ref=f1e29]: Le digital malien, pensé pour le monde.
+          - heading [level=1] [ref=f1e30]:
+            - text: Des idées claires.
+            - emphasis [ref=f1e31]: Des expériences
+            - text: web utiles.
+          - paragraph [ref=f1e32]: Je suis Aboubacrine BAH, développeur web full-stack basé à Bamako. J’accompagne les entreprises dans la création de sites et d’interfaces numériques soignés.
+          - generic [ref=f1e33]:
+            - link "Découvrir mes projets " [ref=f1e34] [cursor=pointer]:
+              - /url: "#projets"
+              - text: Découvrir mes projets
+              - generic [ref=f1e35]: 
+            - link "Parlons de votre projet " [ref=f1e36] [cursor=pointer]:
+              - /url: "#contact"
+              - text: Parlons de votre projet
+              - generic [ref=f1e37]: 
+          - generic [ref=f1e38]:
+            - generic [ref=f1e39]:
+              - text: 01 — Bamako, Mali
+              - generic [ref=f1e40]: 
+            - generic [ref=f1e42]:
+              - text: À distance, partout
+              - generic [ref=f1e43]: 
+        - img "Illustration abstraite d'une interface web" [ref=f1e44]:
+          - generic [ref=f1e47]:
+            - generic [ref=f1e48]: ab.
+            - generic [ref=f1e53]:
+              - text: UNE PRÉSENCE QUI VOUS RESSEMBLE
+              - generic [ref=f1e54]:
+                - text: Votre prochain
+                - emphasis [ref=f1e56]: chapitre digital.
+              - generic [ref=f1e57]: Découvrir →
+            - generic [ref=f1e58]:
+              - generic [ref=f1e59]: 01 — 03
+              - generic [ref=f1e61]: BAKO / ML
+          - generic [ref=f1e62]:
+            - generic [ref=f1e63]: "{ }"
+            - generic [ref=f1e64]:
+              - generic [ref=f1e65]: BUILD WITH
+              - generic [ref=f1e66]: Intention.
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]: ⌖
+            - generic [ref=f1e69]:
+              - generic [ref=f1e70]: DESIGNÉ À
+              - generic [ref=f1e71]: Bamako, Mali
+          - generic [ref=f1e72]: ✳
+          - generic [ref=f1e73]: +
+      - generic [ref=f1e74]:
+        - generic [ref=f1e75]: 01 / 04
+        - generic [ref=f1e77]:
+          - text: SCROLL POUR EXPLORER
+          - generic [ref=f1e78]: 
+    - generic [ref=f1e81]:
+      - generic [ref=f1e82]:
+        - generic [ref=f1e83]: UN PEU DE CONTEXTE
+        - generic [ref=f1e86]:
+          - heading [level=2] [ref=f1e87]:
+            - text: Du code,
+            - emphasis [ref=f1e88]: du sens.
+          - paragraph [ref=f1e89]: Je relie la maîtrise technique à la compréhension du besoin, pour créer des expériences web aussi utiles qu’agréables à parcourir.
+      - generic [ref=f1e90]:
+        - generic [ref=f1e91]:
+          - generic [ref=f1e92]: "01"
+          - generic [ref=f1e94]: À PROPOS
+        - generic [ref=f1e95]:
+          - paragraph [ref=f1e96]: Je m’appelle Aboubacrine BAH et je suis développeur web full stack à Bamako, au Mali. À travers NexaWeb Mali, j’aide les entrepreneurs, les petites et moyennes entreprises et les équipes web à concrétiser leurs projets numériques.
+          - paragraph [ref=f1e97]: Mon travail couvre la création de sites web, l’intégration d’interfaces et le développement de fonctionnalités sur mesure. Je m’appuie notamment sur WordPress, HTML5, CSS3, JavaScript, Bootstrap, React, PHP et MySQL. J’accorde une place importante à l’écoute du besoin, à une communication transparente et à des choix techniques adaptés au projet.
+          - paragraph [ref=f1e98]: Chaque réalisation présentée ici précise le contexte, ma contribution et les outils utilisés. Les projets de démonstration sont indiqués comme tels. Je suis disponible pour échanger sur un site vitrine, une interface web ou un besoin de maintenance.
+          - link "Faire connaissance " [ref=f1e99] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Faire connaissance
+            - generic [ref=f1e100]: 
+          - complementary [ref=f1e101]:
+            - generic [ref=f1e102]: ✳
+            - paragraph [ref=f1e103]:
+              - text: « La bonne solution commence par
+              - emphasis [ref=f1e104]: la bonne question.
+              - text: »
+            - text: MA FAÇON DE TRAVAILLER
+        - figure "ABOUBACRINE BAH · BAMAKO" [ref=f1e105]:
+          - img "Emplacement réservé à la photo d’Aboubacrine" [ref=f1e106]:
+            - img "Portrait d’Aboubacrine BAH" [ref=f1e107]
+      - generic [ref=f1e109]:
+        - generic [ref=f1e110]: MES OUTILS
+        - generic [ref=f1e111]:
+          - generic [ref=f1e112]: WordPress
+          - generic [ref=f1e113]: React
+          - generic [ref=f1e114]: JavaScript
+          - generic [ref=f1e115]: PHP
+          - generic [ref=f1e116]: HTML5 & CSS3
+          - generic [ref=f1e117]: Bootstrap
+          - generic [ref=f1e118]: MySQL
+          - generic [ref=f1e119]: Laravel
+    - generic [ref=f1e121]:
+      - generic [ref=f1e122]:
+        - generic [ref=f1e123]: QUELQUES PISTES CRÉATIVES
+        - generic [ref=f1e126]:
+          - heading [level=2] [ref=f1e127]:
+            - text: Faire simple.
+            - emphasis [ref=f1e128]: Faire juste.
+          - paragraph [ref=f1e129]: Des exemples de direction et de savoir-faire. Chaque démonstration est clairement identifiée.
+      - generic [ref=f1e130]:
+        - group "Filtrer les projets" [ref=f1e131]:
+          - button "Tous" [pressed] [ref=f1e132] [cursor=pointer]
+          - button "Site web" [ref=f1e133] [cursor=pointer]
+          - button "Interface web" [ref=f1e134] [cursor=pointer]
+          - button "Application web" [ref=f1e135] [cursor=pointer]
+        - generic [ref=f1e136]: 00 PROJETS
+      - status [ref=f1e137]: Chargement des projets…
+      - paragraph [ref=f1e138]: ✳ Les projets réels et leurs études de cas seront ajoutés après validation des visuels et des autorisations.
+    - generic [ref=f1e140]:
+      - generic [ref=f1e141]:
+        - generic [ref=f1e142]: COMMENT JE PEUX AIDER
+        - generic [ref=f1e145]:
+          - heading [level=2] [ref=f1e146]:
+            - text: Un besoin,
+            - emphasis [ref=f1e147]: une solution adaptée.
+          - paragraph [ref=f1e148]: On commence par votre objectif. Le périmètre, les étapes et le devis sont définis ensemble.
+      - generic [ref=f1e149]:
+        - article [ref=f1e150]:
+          - generic [ref=f1e151]: "01"
+          - generic [ref=f1e152]:
+            - heading "Sites web" [level=3] [ref=f1e153]
+            - generic [ref=f1e154]: 
+          - paragraph [ref=f1e156]: Sites vitrines, sites WordPress clairs et sites e-commerce adaptés à votre activité et faciles à consulter sur mobile.
+          - link "Discuter de Sites web" [ref=f1e157] [cursor=pointer]:
+            - /url: "#contact"
+            - generic [ref=f1e158]: 
+        - article [ref=f1e159]:
+          - generic [ref=f1e160]: "02"
+          - generic [ref=f1e161]:
+            - heading "Interfaces & applications" [level=3] [ref=f1e162]
+            - generic [ref=f1e163]: 
+          - paragraph [ref=f1e165]: Interfaces React et fonctionnalités PHP conçues autour des besoins concrets de votre projet.
+          - link "Discuter de Interfaces & applications" [ref=f1e166] [cursor=pointer]:
+            - /url: "#contact"
+            - generic [ref=f1e167]: 
+        - article [ref=f1e168]:
+          - generic [ref=f1e169]: "03"
+          - generic [ref=f1e170]:
+            - heading "Maintenance" [level=3] [ref=f1e171]
+            - generic [ref=f1e172]: 
+          - paragraph [ref=f1e174]: Mises à jour, sauvegardes, corrections et accompagnement pour faire vivre votre site.
+          - link "Discuter de Maintenance" [ref=f1e175] [cursor=pointer]:
+            - /url: "#contact"
+            - generic [ref=f1e176]: 
+      - generic [ref=f1e177]:
+        - generic [ref=f1e178]: ✳
+        - paragraph [ref=f1e179]: Chaque projet est différent. Parlons de votre besoin pour cadrer la bonne approche, les livrables et les délais.
+        - link "Demander un échange " [ref=f1e180] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Demander un échange
+          - generic [ref=f1e181]: 
+    - generic [ref=f1e183]:
+      - generic [ref=f1e184]:
+        - generic [ref=f1e185]: DU PREMIER ÉCHANGE À LA MISE EN LIGNE
+        - heading [level=2] [ref=f1e189]:
+          - text: Clair à chaque
+          - emphasis [ref=f1e190]: étape.
+      - generic [ref=f1e191]:
+        - article [ref=f1e192]:
+          - generic [ref=f1e193]: "01"
+          - heading "Écouter" [level=3] [ref=f1e195]
+          - paragraph [ref=f1e196]: Comprendre votre activité, vos objectifs et les personnes que vous souhaitez aider.
+        - article [ref=f1e197]:
+          - generic [ref=f1e198]: "02"
+          - heading "Concevoir" [level=3] [ref=f1e200]
+          - paragraph [ref=f1e201]: Définir une direction claire, le contenu et les fonctionnalités qui comptent.
+        - article [ref=f1e202]:
+          - generic [ref=f1e203]: "03"
+          - heading "Construire" [level=3] [ref=f1e205]
+          - paragraph [ref=f1e206]: Réaliser une expérience accessible, responsive et soignée dans ses détails.
+        - article [ref=f1e207]:
+          - generic [ref=f1e208]: "04"
+          - heading "Accompagner" [level=3] [ref=f1e210]
+          - paragraph [ref=f1e211]: Vous guider jusqu’à la mise en ligne et rester disponible pour la suite.
+    - generic [ref=f1e213]:
+      - generic [ref=f1e214]:
+        - generic [ref=f1e215]: À VOUS LA PAROLE
+        - heading [level=2] [ref=f1e218]:
+          - text: Et si on faisait
+          - emphasis [ref=f1e219]: équipe ?
+        - paragraph [ref=f1e220]: Vous avez une idée, un site à faire évoluer ou simplement une question ? Écrivez-moi, nous prendrons le temps d’en parler.
+        - link "Écrivez-moi " [ref=f1e221] [cursor=pointer]:
+          - /url: mailto:bahaboubacrine1@gmail.com?subject=Parlons%20de%20votre%20projet
+          - text: Écrivez-moi
+          - generic [ref=f1e222]: 
+      - generic [ref=f1e223]:
+        - generic [ref=f1e224]:
+          - generic [ref=f1e225]: ÉCRIVEZ-MOI
+          - link "bahaboubacrine1@gmail.com " [ref=f1e226] [cursor=pointer]:
+            - /url: mailto:bahaboubacrine1@gmail.com
+            - text: bahaboubacrine1@gmail.com
+            - generic [ref=f1e227]: 
+        - generic [ref=f1e228]:
+          - generic [ref=f1e229]: RETROUVEZ-MOI
+          - generic [ref=f1e230]: Les liens professionnels seront ajoutés après validation.
+        - generic [ref=f1e231]:
+          - generic [ref=f1e232]: LOCALISATION
+          - generic [ref=f1e233]:
+            - text: Bamako, Mali
+            - generic [ref=f1e234]: 
+            - text: · À distance
+            - generic [ref=f1e235]: 
+  - contentinfo [ref=f1e236]:
+    - generic [ref=f1e237]:
+      - link "A . Aboubacrine BAH Développeur web · Bamako" [ref=f1e238] [cursor=pointer]:
+        - /url: "#accueil"
+        - generic [ref=f1e239]:
+          - text: A
+          - generic [ref=f1e240]: .
+        - generic [ref=f1e241]:
+          - text: Aboubacrine BAH
+          - generic [ref=f1e242]: Développeur web · Bamako
+      - generic [ref=f1e243]:
+        - text: Le digital malien,
+        - emphasis [ref=f1e244]: pensé pour le monde.
+      - generic [ref=f1e245]:
+        - generic [ref=f1e246]: 
+        - text: 2026 Aboubacrine BAHFait avec soin à Bamako✳

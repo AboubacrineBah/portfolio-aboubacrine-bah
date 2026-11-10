@@ -1,0 +1,94 @@
+[
+  {
+    "id": "site-business",
+    "title": "NexaWeb Mali | WordPress",
+    "category": "Site web",
+    "description": "Site business avec menu et demande de devis pour création de site web.",
+    "tags": [
+      "WordPress",
+      "PHP",
+      "Responsive",
+      "SEO"
+    ],
+    "tone": "sage",
+    "visual": "vitrine",
+    "image": "/images/page d'accueil section hero wordpress.png"
+  },
+  {
+    "id": "site-vitrine",
+    "title": "NexaWeb Mali | Bootstrap",
+    "category": "Site web",
+    "description": "Site vitrine avec menu et demande de devis de service.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Responsive",
+      "SEO"
+    ],
+    "tone": "sage",
+    "visual": "vitrine",
+    "image": "/images/page d'accueil section hero bootstrap.jpeg"
+  },
+  {
+    "id": "site-ecommerce",
+    "title": "Afrique Artisanat (fictif) | Laravel",
+    "category": "Site web",
+    "description": "Boutique e-commerce pour l’artisanat malien. Une boutique en ligne complète (site, espace client et back-office) développée avec Laravel, pour valoriser les savoir-faire locaux et simplifier la prise de commande.",
+    "tags": [
+      "laravel",
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "Vite",
+      "PHPUnit",
+      "Responsive",
+      "SEO"
+    ],
+    "tone": "sand",
+    "visual": "store",
+    "image": "/images/afrique artisanat hero.png"
+  },
+  {
+    "id": "interface-de-suivi",
+    "title": "Association Jigi (fictive) | React",
+    "category": "Interface web",
+    "description": "Application de suivi de dons pour une association. Une application web monopage (React, Bootstrap et API Laravel) pour enregistrer les dons reçus, tracer leur utilisation et leur redistribution, et permettre à chaque donateur de suivre ses propres dons.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Bootstrap",
+      "Vite",
+      "laravel",
+      "PHP",
+      "MySQL",
+      "Vitest",
+      "React Testing Library",
+      "Responsive",
+      "UI"
+    ],
+    "tone": "blue",
+    "visual": "dashboard",
+    "image": "/images/association jigi tableau de bord.png"
+  },
+  {
+    "id": "application-de-gestion",
+    "title": "NexaStock (fictif) | Laravel",
+    "category": "Application web",
+    "description": "Application web de gestion de stock en français et en FCFA, avec mouvements traçables, alertes de seuil et accès par rôle.",
+    "tags": [
+      "laravel",
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "Vite",
+      "PHPUnit",
+      "Responsive",
+      "UI"
+    ],
+    "tone": "sand",
+    "visual": "dashboard",
+    "image": "/images/nexastock tableau de bord.png"
+  }
+]
