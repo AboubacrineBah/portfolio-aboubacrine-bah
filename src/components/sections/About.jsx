@@ -28,7 +28,7 @@ function About() {
           <figure className="about-portrait">
             <div className="portrait-placeholder" role="img" aria-label="Emplacement réservé à la photo d’Aboubacrine">
               <img
-                src="/images/AboubacrineBah1-1.jpg"
+                src="/images/AboubacrineBah.jpg"
                 alt="Portrait d’Aboubacrine BAH"
               />
             </div>
