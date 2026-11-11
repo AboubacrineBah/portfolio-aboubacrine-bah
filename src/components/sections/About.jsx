@@ -1,3 +1,4 @@
+import publicAssetUrl from '../../utils/publicAssetUrl'
 import SectionHeading from '../ui/SectionHeading'
 
 function About() {
@@ -28,7 +29,7 @@ function About() {
           <figure className="about-portrait">
             <div className="portrait-placeholder" role="img" aria-label="Emplacement réservé à la photo d’Aboubacrine">
               <img
-                src="/images/AboubacrineBah.jpg"
+                src={publicAssetUrl('/images/AboubacrineBah.jpg', import.meta.env.BASE_URL)}
                 alt="Portrait d’Aboubacrine BAH"
               />
             </div>
