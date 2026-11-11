@@ -49,6 +49,11 @@ test('a project case study loads directly from the GitHub Pages subpath', async 
   await page.goto('./projets/site-business')
 
   await expect(page.getByRole('heading', { level: 1, name: 'NexaWeb Mali | WordPress' })).toBeVisible()
+  await expect(page).toHaveTitle('NexaWeb Mali | WordPress — Étude de cas | Aboubacrine BAH')
+  await expect(page.locator('meta[name="description"]')).toHaveAttribute(
+    'content',
+    'Site business avec menu et demande de devis pour création de site web.',
+  )
   await expect(page.getByRole('link', { name: 'Retour aux projets' })).toBeVisible()
   const heroImage = page.locator('.case-study-hero-image img')
   await expect(heroImage).toBeVisible()
@@ -59,12 +64,14 @@ test('a project case study loads directly from the GitHub Pages subpath', async 
   await page.getByRole('link', { name: 'Retour aux projets' }).click()
   await expect(page).toHaveURL(/\/portfolio-aboubacrine-bah\/#projets$/)
   await expect(page.locator('#projets')).toBeVisible()
+  await expect(page).toHaveTitle('Aboubacrine BAH — Développeur web full-stack à Bamako')
 })
 
 test('unknown routes display a helpful not-found page', async ({ page }) => {
   await page.goto('./page-inconnue')
 
   await expect(page.getByRole('heading', { level: 1, name: 'Page introuvable' })).toBeVisible()
+  await expect(page).toHaveTitle('Page introuvable | Aboubacrine BAH')
   await expect(page.getByRole('link', { name: 'Retour à l’accueil' })).toHaveAttribute(
     'href',
     '/portfolio-aboubacrine-bah/',

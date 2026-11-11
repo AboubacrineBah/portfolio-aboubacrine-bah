@@ -4,7 +4,7 @@ function ProjectVisual({ type, image }) {
   if (image) {
     return (
       <div className={`project-visual visual-${type}`} aria-hidden="true">
-        <img src={publicAssetUrl(image, import.meta.env.BASE_URL)} alt="" />
+        <img src={publicAssetUrl(image, import.meta.env.BASE_URL)} alt="" loading="lazy" decoding="async" />
       </div>
     )
   } else
