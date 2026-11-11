@@ -14,11 +14,11 @@ Portfolio personnel d’Aboubacrine BAH, développeur web full-stack à Bamako, 
 
 - Node.js 22
 - npm
-- Chromium pour exécuter les tests d’interface
+- Chromium pour exécuter les tests d’interface (installé automatiquement dans le Dev Container)
 
 ## Développement avec VS Code Dev Containers
 
-Installez et démarrez Docker Desktop, puis ouvrez le dépôt dans VS Code. Utilisez la palette de commandes (`Ctrl+Shift+P`) et choisissez **Dev Containers: Reopen in Container**. À la première création, le conteneur installe les dépendances avec `npm ci` et transfère automatiquement le port Vite `5173`.
+Installez et démarrez Docker Desktop, puis ouvrez le dépôt dans VS Code. Utilisez la palette de commandes (`Ctrl+Shift+P`) et choisissez **Dev Containers: Reopen in Container**. À la première création, le conteneur installe les dépendances npm et Chromium avec ses bibliothèques système, puis transfère automatiquement le port Vite `5173`.
 
 Une fois le conteneur prêt, démarrez le site avec `npm run dev`. VS Code proposera d’ouvrir le site dans le navigateur.
 
