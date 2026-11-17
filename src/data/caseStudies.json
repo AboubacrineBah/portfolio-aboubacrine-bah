@@ -164,5 +164,47 @@
             "/images/nexastock-laravel/supplier-edit.png",
             "/images/nexastock-laravel/reports.png"
         ]
+    },
+    {
+        "projectId": "interface-portfolio",
+        "projectName": "Portfolio Aboubacrine Bah | React",
+        "type": "Interface web",
+        "description": "Application web de Portfolio pour développeurs web et designers. Le portfolio présente Aboubacrine BAH, développeur web à Bamako et fondateur de NexaWeb Mali.",
+        "contextAndNeed": "Contexte : Le portfolio présente Aboubacrine BAH, développeur web à Bamako et fondateur de NexaWeb Mali. Il sert à démontrer ses compétences, expliquer ses services et convertir les visites en prises de contact. Il doit être lui-même une démonstration de soin graphique, d’accessibilité et de qualité d’intégration. Besoin : rendre le profil compréhensible en quelques secondes mettre en valeur des projets vérifiables expliquer l’offre et la méthode rendre le contact simple fournir une expérience mobile efficace même avec une connexion limitée.",
+        "contribution": "React et JavaScript : application monopage construite avec Vite, routage par hash pour GitHub Pages, état partagé via React Context et formulaires validés (React Hook Form et Zod). API Laravel et MySQL : API REST en JSON, authentification par jetons (Sanctum), droits par rôle (Policies), validation par Form Requests et données de démonstration par seeders. Règles métier côté serveur : montants stockés en entiers dans la plus petite unité de chaque devise, calcul du solde par devise et contrôle des utilisations avant enregistrement. Interface Bootstrap 5 aux couleurs de l’association : logo, palette (terracotta, brun nuit, jaune soleil, vert) et contrastes vérifiés, navigation au clavier et tableaux accessibles. Qualité et conception : cahier des charges en 13 sections, maquettes de 23 écrans (versions bureau et mobile), tests automatisés (Vitest, React Testing Library et tests de l’API) et commits atomiques.",
+        "tags": [
+            "React",
+            "JavaScript",
+            "Bootstrap",
+            "Vite",
+            "Responsive",
+            "UI"
+        ],
+        "verifiableResult": "Une identité visuelle sur mesure (logo « j » au soleil levant, charte et contrastes AA) et un cahier des charges complet de 13 sections, une maquette de 23 écrans, en versions bureau et mobile, pour les quatre profils d’utilisateurs, un suivi complet des dons, utilisations et redistributions, avec un tableau de bord par devise, des campagnes et des exports CSV, un espace donateur en lecture seule, limité aux dons de chaque donateur, score Lighthouse supérieur à 90/100, des pages légères, temps de chargement inférieur à 2 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": []
+    },
+    {
+        "projectId": "application-de-gestion-entreprise",
+        "projectName": "NexaGestion (fictif) | Laravel",
+        "type": "Application web",
+        "description": "Les petites entreprises gèrent souvent leurs clients, ventes, achats, stocks et dépenses avec des outils séparés.",
+        "contextAndNeed": "Contexte : les petites entreprises gèrent souvent leurs clients, ventes, achats, stocks et dépenses avec des outils séparés. NexaGestion vise à réunir ces opérations dans une interface lisible, avec des données cohérentes et des accès adaptés aux responsabilités. Besoins : Centraliser les informations clients, fournisseurs, produits, ventes et achats. Réduire les doubles saisies et suivre les opérations depuis leur création jusqu’à leur clôture. Donner au dirigeant une vue synthétique de l’activité et des éléments qui demandent son attention.",
+        "contribution": "Laravel (MVC) et MySQL : 9 entités métier (entreprise, utilisateur, rôle, article, catégorie, emplacement, mouvement, fournisseur, inventaire) et transactions atomiques pour valider les mouvements et les transferts. Des mouvements immuables : entrée, sortie, ajustement et transfert avec quantité, date, motif et auteur. Une correction ou une annulation crée un mouvement compensatoire lié à l’opération d’origine, et un journal d’audit garde les actions sensibles. Des accès contrôlés côté serveur : 4 profils (administrateur NexaWeb, administrateur entreprise, responsable stock, opérateur), sessions sécurisées, protection CSRF, limitation des tentatives de connexion, mots de passe hachés et HTTPS en production. Des parcours guidés et une interface propre au produit : réception, sortie (sorties négatives refusées), inventaire avec ajustement justifié, liste de réapprovisionnement exportable et import CSV avec aperçu des erreurs. Interface Blade responsive, logo et palette NexaStock dédiés, alertes signalées par un libellé et une icône en plus de la couleur. Exploitation et qualité : environnements de développement, recette et production, secrets hors du dépôt de code, sauvegardes automatisées avec restauration d’essai documentée, et offre RUN pour les mises à jour et l’assistance.",
+        "tags": [
+            "Laravel",
+            "PHP",
+            "MySQL",
+            "Bootstrap",
+            "Vite",
+            "JavaScript",
+            "npm",
+            "PHPUnit",
+            "Responsive",
+            "UI"
+        ],
+        "verifiableResult": "Un périmètre MVP défini : 11 modules, dont 8 indispensables (accès, articles, mouvements, alertes, inventaire, rapports, journal d’audit, espaces entreprise), 5 parcours principaux décrits (réception, sortie, inventaire, réapprovisionnement, import du catalogue) sur 7 ensembles d’écrans, 11 critères de recette vérifiables, dont l’isolation des entreprises, la traçabilité des corrections, l’usage mobile et la restauration des sauvegardes, une validation prévue avec des utilisateurs réels : 15 entretiens à Bamako, 3 à 5 pilotes, et au moins 80 % des opérations courantes saisies dans l’outil, score Lighthouse supérieur à 85/100, des pages légères, temps de chargement inférieur à 3 secondes et compatibilité mobile : 100 % responsive.",
+        "visualsAndPermissions": "",
+        "gallery": []
     }
 ]

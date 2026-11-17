@@ -90,5 +90,41 @@
     "tone": "sand",
     "visual": "dashboard",
     "image": "/images/nexastock tableau de bord.png"
+  },
+  {
+    "id": "interface-portfolio",
+    "title": "Portfolio Aboubacrine BAH | React",
+    "category": "Interface web",
+    "description": "Le portfolio présente Aboubacrine BAH, développeur web à Bamako et fondateur de NexaWeb Mali.",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Bootstrap",
+      "Vite"
+    ],
+    "tone": "blue",
+    "visual": "dashboard",
+    "image": ""
+  },
+  {
+    "id": "application-de-gestion-entreprise",
+    "title": "NexaGestion (fictif) | Laravel",
+    "category": "Application web",
+    "description": "les petites entreprises gèrent souvent leurs clients, ventes, achats, stocks et dépenses avec des outils séparés.",
+    "tags": [
+      "laravel",
+      "PHP",
+      "MySQL",
+      "Bootstrap",
+      "Vite",
+      "JavaScript",
+      "PHPUnit",
+      "npm",
+      "Responsive",
+      "UI"
+    ],
+    "tone": "sand",
+    "visual": "dashboard",
+    "image": ""
   }
 ]
