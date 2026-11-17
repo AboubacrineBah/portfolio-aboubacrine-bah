@@ -182,7 +182,7 @@
         ],
         "verifiableResult": "Une identité visuelle sur mesure (logo « j » au soleil levant, charte et contrastes AA) et un cahier des charges complet de 13 sections, une maquette de 23 écrans, en versions bureau et mobile, pour les quatre profils d’utilisateurs, un suivi complet des dons, utilisations et redistributions, avec un tableau de bord par devise, des campagnes et des exports CSV, un espace donateur en lecture seule, limité aux dons de chaque donateur, score Lighthouse supérieur à 90/100, des pages légères, temps de chargement inférieur à 2 secondes et compatibilité mobile : 100 % responsive.",
         "visualsAndPermissions": "",
-        "gallery": []
+        "gallery": ["/images/portfolio-react/maquette-portfolio.png"]
     },
     {
         "projectId": "application-de-gestion-entreprise",
@@ -205,6 +205,15 @@
         ],
         "verifiableResult": "Un périmètre MVP défini : 11 modules, dont 8 indispensables (accès, articles, mouvements, alertes, inventaire, rapports, journal d’audit, espaces entreprise), 5 parcours principaux décrits (réception, sortie, inventaire, réapprovisionnement, import du catalogue) sur 7 ensembles d’écrans, 11 critères de recette vérifiables, dont l’isolation des entreprises, la traçabilité des corrections, l’usage mobile et la restauration des sauvegardes, une validation prévue avec des utilisateurs réels : 15 entretiens à Bamako, 3 à 5 pilotes, et au moins 80 % des opérations courantes saisies dans l’outil, score Lighthouse supérieur à 85/100, des pages légères, temps de chargement inférieur à 3 secondes et compatibilité mobile : 100 % responsive.",
         "visualsAndPermissions": "",
-        "gallery": []
+        "gallery": [
+            "/images/nexagestion-laravel/achats-fournisseurs.png",
+            "/images/nexagestion-laravel/administration.png",
+            "/images/nexagestion-laravel/crm-clients.png",
+            "/images/nexagestion-laravel/depenses.png",
+            "/images/nexagestion-laravel/produits-stocks.png",
+            "/images/nexagestion-laravel/rapports.png",
+            "/images/nexagestion-laravel/tableau-de-bord.png",
+            "/images/nexagestion-laravel/ventes.png"
+        ]
     }
 ]

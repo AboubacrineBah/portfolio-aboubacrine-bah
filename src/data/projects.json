@@ -93,7 +93,7 @@
   },
   {
     "id": "interface-portfolio",
-    "title": "Portfolio Aboubacrine BAH | React",
+    "title": "Portfolio Aboubacrine Bah | React",
     "category": "Interface web",
     "description": "Le portfolio présente Aboubacrine BAH, développeur web à Bamako et fondateur de NexaWeb Mali.",
     "tags": [
@@ -104,7 +104,7 @@
     ],
     "tone": "blue",
     "visual": "dashboard",
-    "image": ""
+    "image": "/images/portfolio-react/maquette-portfolio.png"
   },
   {
     "id": "application-de-gestion-entreprise",
@@ -125,6 +125,6 @@
     ],
     "tone": "sand",
     "visual": "dashboard",
-    "image": ""
+    "image": "/images/nexagestion-laravel/tableau-de-bord.png"
   }
 ]

@@ -36,7 +36,7 @@ Vite affiche l’adresse locale du site dans le terminal.
 ## Vérifications
 
 ```bash
-npm run lint
+npm run lint 
 npm test
 npx playwright install chromium
 npm run test:ui
